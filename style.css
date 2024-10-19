@@ -1,0 +1,90 @@
+/* estilos gloobais*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* estilos do container principal*/
+.container {
+    height: 600px;
+    width: 490px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    border: solid black;
+    border-width: 2px;
+    box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* secoes*/
+
+.container-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 440px;
+    height: 400;
+    margin-top: 30px;
+   
+}
+
+.illustration-article {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+    
+}
+
+.conatiner-Learning{
+    background-color: hsl(47, 88%, 63%) ;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 1px;
+    align-items: center;
+    font-size: 14px;
+    
+}
+
+.Published {
+    font-family: 'Courier New', Courier, monospace;
+}
+.foundations{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.descricao{
+    line-height:25px;
+    font-size: 18px;
+    
+}
+
+.icon-criador{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.foto-criador{
+    height: 40px;
+}
+
+.strong{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-ajuste{
+    margin-left: 26px;
+}
